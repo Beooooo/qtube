@@ -10,15 +10,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.3/QTube-1.0.3-AppleSilicon.dmg">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-AppleSilicon.dmg">
     <img src="https://img.shields.io/badge/macOS-Apple%20Silicon%20(.dmg)-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Apple Silicon">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.3/QTube-1.0.3-Intel.dmg">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Intel.dmg">
     <img src="https://img.shields.io/badge/macOS-Intel%20Chip%20(.dmg)-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.3/QTube-1.0.3-Windows-x64-Setup.exe">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Windows-x64-Setup.exe">
     <img src="https://img.shields.io/badge/Windows-10%2F11%20x64%20(.exe)-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows Setup">
   </a>
 </p>
@@ -31,11 +31,16 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 
 | Hệ điều hành | Dòng máy / Cấu hình | Định dạng | Link tải trực tiếp |
 | :--- | :--- | :---: | :--- |
-|  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QTube-1.0.3-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.3/QTube-1.0.3-AppleSilicon.dmg) |
-|  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QTube-1.0.3-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.3/QTube-1.0.3-Intel.dmg) |
-| 🪟 **Windows** | **Windows 10 / 11 (64-bit)** | `.exe` | [Tải về QTube-1.0.3-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.3/QTube-1.0.3-Windows-x64-Setup.exe) |
+|  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QTube-1.0.4-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-AppleSilicon.dmg) |
+|  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QTube-1.0.4-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Intel.dmg) |
+| 🪟 **Windows** | **Windows 10 / 11 (64-bit)** | `.exe` | [Tải về QTube-1.0.4-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Windows-x64-Setup.exe) |
 
-**Mới ở v1.0.3:** Khắc phục triệt để lỗi trích xuất âm thanh MP3 (`Encoder not found`) nhờ tích hợp đầy đủ bộ mã hóa `libmp3lame` vào `ffmpeg`. Tối ưu hóa cơ chế chọn client tải video (`visionos,web`), sửa lỗi không nhận diện luồng 1080p60/4K do YouTube thử nghiệm cơ chế SABR streaming và yêu cầu PO-Token trên các client di động. Đồng bộ phiên bản và tính ổn định trên cả macOS và Windows.
+**Mới ở v1.0.4:**
+- **Sửa triệt để lỗi tự động cập nhật (Auto-updater):** Khắc phục lỗi `"Yêu cầu hết thời gian chờ."` (`NSURLErrorTimedOut`) khi tải bản cập nhật qua mạng quốc tế.
+- **Tối ưu hóa kết nối:** Tăng thời gian chờ gói dữ liệu lên 60s, tổng thời gian tải lên 30 phút, bật tính năng tự động duy trì kết nối khi mạng chập chờn.
+- **Tự động thử lại thông minh:** Tự động retry 3 lần nếu xảy ra sự cố mạng trong quá trình tải bản cập nhật ngầm.
+- **Bổ sung tùy chọn tải linh hoạt:** Thêm nút *"Thử lại"* và *"Tải thủ công bằng trình duyệt"* trực tiếp trên cửa sổ thông báo cập nhật.
+- **Kế thừa toàn bộ cải tiến v1.0.3:** Trích xuất âm thanh MP3 hoàn chỉnh với `libmp3lame`, tối ưu hóa cơ chế tải 1080p/2K/4K và đồng bộ đa nền tảng.
 
 ---
 
@@ -64,8 +69,8 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 
 ### Dành cho macOS:
 1. Tải file `.dmg` tương ứng với dòng máy của bạn:
-   - [Tải QTube cho Mac Apple Silicon (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.3/QTube-1.0.3-AppleSilicon.dmg)
-   - [Tải QTube cho Mac chip Intel (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.3/QTube-1.0.3-Intel.dmg)
+   - [Tải QTube cho Mac Apple Silicon (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-AppleSilicon.dmg)
+   - [Tải QTube cho Mac chip Intel (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Intel.dmg)
 2. Mở file `.dmg` vừa tải về, kéo biểu tượng **QTube** vào thư mục **Applications**.
 3. Mở **QTube** từ Launchpad hoặc thư mục Applications để sử dụng.
 
@@ -77,7 +82,7 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 > *(Bạn chỉ cần thực hiện bước này một lần duy nhất).*
 
 ### Dành cho Windows:
-1. Tải file cài đặt trọn gói: [**Tải về QTube-1.0.3-Windows-x64-Setup.exe**](https://github.com/beolamtat/qtube/releases/download/v1.0.3/QTube-1.0.3-Windows-x64-Setup.exe) (~81 MB)
+1. Tải file cài đặt trọn gói: [**Tải về QTube-1.0.4-Windows-x64-Setup.exe**](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Windows-x64-Setup.exe) (~81 MB)
 2. Mở file setup vừa tải và nhấn **Next** để hoàn tất cài đặt (đã tích hợp sẵn trọn gói .NET 8 Runtime, Windows App SDK và toàn bộ công cụ cần thiết).
 3. Mở **QTube** từ Desktop hoặc Start Menu để bắt đầu sử dụng.
 
