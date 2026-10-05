@@ -10,15 +10,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-AppleSilicon.dmg">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.6/QDown-1.0.6-AppleSilicon.dmg">
     <img src="https://img.shields.io/badge/macOS-Apple%20Silicon%20(.dmg)-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Apple Silicon">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Intel.dmg">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.6/QDown-1.0.6-Intel.dmg">
     <img src="https://img.shields.io/badge/macOS-Intel%20Chip%20(.dmg)-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Windows-x64-Setup.exe">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.6/QDown-1.0.6-Windows-x64-Setup.exe">
     <img src="https://img.shields.io/badge/Windows-10%2F11%20x64%20(.exe)-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows Setup">
   </a>
 </p>
@@ -31,16 +31,16 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 
 | Hệ điều hành | Dòng máy / Cấu hình | Định dạng | Link tải trực tiếp |
 | :--- | :--- | :---: | :--- |
-|  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QDown-1.0.5-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-AppleSilicon.dmg) |
-|  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QDown-1.0.5-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Intel.dmg) |
-| 🪟 **Windows** | **Windows 10 / 11 (64-bit)** | `.exe` | [Tải về QDown-1.0.5-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Windows-x64-Setup.exe) |
+|  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QDown-1.0.6-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.6/QDown-1.0.6-AppleSilicon.dmg) |
+|  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QDown-1.0.6-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.6/QDown-1.0.6-Intel.dmg) |
+| 🪟 **Windows** | **Windows 10 / 11 (64-bit)** | `.exe` | [Tải về QDown-1.0.6-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.6/QDown-1.0.6-Windows-x64-Setup.exe) |
 
-**Mới ở v1.0.5:**
-- **Tái định vị thương hiệu QDown & Bộ nhận diện phẳng:** Đổi mới hoàn toàn nhận diện sang **QDown** với biểu tượng phong cách phẳng (Flat Solid Design) tối giản, đồng bộ thẩm mỹ hoàn hảo với thanh Dock macOS và Windows 11.
-- **Mở rộng hỗ trợ Đa Nền Tảng (+1.800 trang):** Hỗ trợ tải video và âm thanh chất lượng cao từ hơn 1.800+ trang web trên toàn thế giới. Tối ưu hóa nhận diện và giao diện riêng biệt cho **TikTok, Facebook (Watch & Reels), Instagram, Twitter/X, Bilibili, SoundCloud, Vimeo, Reddit, Twitch...**
-- **Tự động loại bỏ đoạn quảng cáo lồng ghép (SponsorBlock):** Tự động phát hiện và cắt bỏ hoàn toàn các đoạn quảng cáo tài trợ ngầm, đoạn giới thiệu dông dài hay kêu gọi tương tác trên cả macOS và Windows. Video tải về luôn liền mạch, sạch bóng quảng cáo.
-- **Lột xác giao diện macOS & Đồng bộ hoàn chỉnh Windows:** Bổ sung thanh Showcase nhận diện nền tảng thông minh, thẻ tag và thẻ hàng đợi gắn huy hiệu màu sắc rõ ràng, tinh gọn tối đa khu vực cài đặt.
-- **Tối ưu hóa tốc độ & cơ chế vượt chặn:** Nâng cấp thuật toán xử lý ngầm giúp vượt cơ chế chống bot mới nhất, tải mượt mà các video dung lượng lớn và triệt tiêu hoàn toàn hiện tượng đứng app khi tải hàng loạt.
+**Mới ở v1.0.6:**
+- **Sửa triệt để lỗi font tiếng Việt trên Windows:** Ép buộc môi trường UTF-8 toàn diện (`activeCodePage: UTF-8`), sửa hoàn toàn hiện tượng tiêu đề tiếng Việt hoặc biểu tượng cảm xúc bị biến thành dấu hỏi kim cương `<?>`.
+- **Khắc phục lỗi "Không tìm thấy tệp đầu ra" sau tải:** Tự động định vị tệp thông minh theo đuôi chuyển đổi và thời gian lưu, luôn hiển thị trạng thái `Hoàn tất` chính xác kèm nút mở tệp / thư mục tức thì.
+- **Hỗ trợ ảnh bìa (Thumbnail) đa nền tảng:** Tự động lấy và hiển thị ảnh bìa trực quan khi dán link Facebook, TikTok, Instagram, Douyin... trong hàng đợi.
+- **Sửa lỗi đóng băng tốc độ tải:** Tự động dọn dẹp số liệu tốc độ và ETA khi dừng tải.
+- **Tối ưu hóa giao diện di động (Mobile Landing Page):** Thiết kế co giãn hoàn hảo, loại bỏ hoàn toàn lỗi tràn viền trên smartphone.
 
 ---
 
@@ -69,8 +69,8 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 
 ### Dành cho macOS:
 1. Tải file `.dmg` tương ứng với dòng máy của bạn:
-   - [Tải QDown cho Mac Apple Silicon (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-AppleSilicon.dmg)
-   - [Tải QDown cho Mac chip Intel (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Intel.dmg)
+   - [Tải QDown cho Mac Apple Silicon (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.6/QDown-1.0.6-AppleSilicon.dmg)
+   - [Tải QDown cho Mac chip Intel (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.6/QDown-1.0.6-Intel.dmg)
 2. Mở file `.dmg` vừa tải về, kéo biểu tượng **QDown** vào thư mục **Applications**.
 3. Mở **QDown** từ Launchpad hoặc thư mục Applications để sử dụng.
 
@@ -82,7 +82,7 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 > *(Bạn chỉ cần thực hiện bước này một lần duy nhất).*
 
 ### Dành cho Windows:
-1. Tải file cài đặt trọn gói: [**Tải về QDown-1.0.5-Windows-x64-Setup.exe**](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Windows-x64-Setup.exe) (~79 MB)
+1. Tải file cài đặt trọn gói: [**Tải về QDown-1.0.6-Windows-x64-Setup.exe**](https://github.com/beolamtat/qtube/releases/download/v1.0.6/QDown-1.0.6-Windows-x64-Setup.exe) (~79 MB)
 2. Mở file setup vừa tải và nhấn **Next** để hoàn tất cài đặt (đã tích hợp sẵn trọn gói .NET 8 Runtime, Windows App SDK và toàn bộ công cụ cần thiết).
 3. Mở **QDown** từ Desktop hoặc Start Menu để bắt đầu sử dụng.
 
