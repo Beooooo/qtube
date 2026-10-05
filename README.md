@@ -1,24 +1,24 @@
 <p align="center">
-  <img src="icon.png" width="128" height="128" alt="QTube Logo" style="border-radius: 28px;">
+  <img src="icon.png" width="128" height="128" alt="QDown Logo" style="border-radius: 28px;">
 </p>
 
-<h1 align="center">QTube</h1>
+<h1 align="center">QDown</h1>
 
 <p align="center">
-  Ứng dụng native tải video và âm thanh YouTube hàng loạt cho macOS &amp; Windows.<br>
+  Ứng dụng native tải video và âm thanh đa nền tảng (YouTube, TikTok, Facebook, Instagram…) hàng loạt cho macOS &amp; Windows.<br>
   Tự động vượt cơ chế chặn bot, giao diện đơn giản, tốc độ tối đa.
 </p>
 
 <p align="center">
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-AppleSilicon.dmg">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-AppleSilicon.dmg">
     <img src="https://img.shields.io/badge/macOS-Apple%20Silicon%20(.dmg)-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Apple Silicon">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Intel.dmg">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Intel.dmg">
     <img src="https://img.shields.io/badge/macOS-Intel%20Chip%20(.dmg)-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Windows-x64-Setup.exe">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Windows-x64-Setup.exe">
     <img src="https://img.shields.io/badge/Windows-10%2F11%20x64%20(.exe)-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows Setup">
   </a>
 </p>
@@ -31,37 +31,37 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 
 | Hệ điều hành | Dòng máy / Cấu hình | Định dạng | Link tải trực tiếp |
 | :--- | :--- | :---: | :--- |
-|  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QTube-1.0.4-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-AppleSilicon.dmg) |
-|  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QTube-1.0.4-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Intel.dmg) |
-| 🪟 **Windows** | **Windows 10 / 11 (64-bit)** | `.exe` | [Tải về QTube-1.0.4-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Windows-x64-Setup.exe) |
+|  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QDown-1.0.5-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-AppleSilicon.dmg) |
+|  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QDown-1.0.5-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Intel.dmg) |
+| 🪟 **Windows** | **Windows 10 / 11 (64-bit)** | `.exe` | [Tải về QDown-1.0.5-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Windows-x64-Setup.exe) |
 
-**Mới ở v1.0.4:**
-- **Sửa triệt để lỗi tự động cập nhật (Auto-updater):** Khắc phục lỗi `"Yêu cầu hết thời gian chờ."` (`NSURLErrorTimedOut`) khi tải bản cập nhật qua mạng quốc tế.
-- **Tối ưu hóa kết nối:** Tăng thời gian chờ gói dữ liệu lên 60s, tổng thời gian tải lên 30 phút, bật tính năng tự động duy trì kết nối khi mạng chập chờn.
-- **Tự động thử lại thông minh:** Tự động retry 3 lần nếu xảy ra sự cố mạng trong quá trình tải bản cập nhật ngầm.
-- **Bổ sung tùy chọn tải linh hoạt:** Thêm nút *"Thử lại"* và *"Tải thủ công bằng trình duyệt"* trực tiếp trên cửa sổ thông báo cập nhật.
-- **Kế thừa toàn bộ cải tiến v1.0.3:** Trích xuất âm thanh MP3 hoàn chỉnh với `libmp3lame`, tối ưu hóa cơ chế tải 1080p/2K/4K và đồng bộ đa nền tảng.
+**Mới ở v1.0.5:**
+- **Tái định vị thương hiệu QDown & Bộ nhận diện phẳng:** Đổi mới hoàn toàn nhận diện sang **QDown** với biểu tượng phong cách phẳng (Flat Solid Design) tối giản, đồng bộ thẩm mỹ hoàn hảo với thanh Dock macOS và Windows 11.
+- **Mở rộng hỗ trợ Đa Nền Tảng (+1.800 trang):** Hỗ trợ tải video và âm thanh chất lượng cao từ hơn 1.800+ trang web trên toàn thế giới. Tối ưu hóa nhận diện và giao diện riêng biệt cho **TikTok, Facebook (Watch & Reels), Instagram, Twitter/X, Bilibili, SoundCloud, Vimeo, Reddit, Twitch...**
+- **Tự động loại bỏ đoạn quảng cáo lồng ghép (SponsorBlock):** Tự động phát hiện và cắt bỏ hoàn toàn các đoạn quảng cáo tài trợ ngầm, đoạn giới thiệu dông dài hay kêu gọi tương tác trên cả macOS và Windows. Video tải về luôn liền mạch, sạch bóng quảng cáo.
+- **Lột xác giao diện macOS & Đồng bộ hoàn chỉnh Windows:** Bổ sung thanh Showcase nhận diện nền tảng thông minh, thẻ tag và thẻ hàng đợi gắn huy hiệu màu sắc rõ ràng, tinh gọn tối đa khu vực cài đặt.
+- **Tối ưu hóa tốc độ & cơ chế vượt chặn:** Nâng cấp thuật toán xử lý ngầm giúp vượt cơ chế chống bot mới nhất, tải mượt mà các video dung lượng lớn và triệt tiêu hoàn toàn hiện tượng đứng app khi tải hàng loạt.
 
 ---
 
 ## ✨ Tính năng nổi bật
 
-- **Tự động 100%**: Chỉ cần dán link là tải, tự động vượt cơ chế chống bot của YouTube mà không cần thao tác thủ công.
+- **Tự động 100%**: Chỉ cần dán link là tải, tự động vượt cơ chế chặn bot mà không cần thao tác thủ công.
 - **Đóng gói trọn gói (All-in-One Standalone)**:
-  -  **macOS (Apple Silicon)**: ~50 MB (`.dmg`).
-  -  **macOS (Intel Chip)**: ~51 MB (`.dmg`).
-  - 🪟 **Windows 10 / 11 (64-bit)**: ~81 MB (`Setup.exe` tích hợp sẵn .NET 8 Runtime, Windows App SDK, bộ giải mã và công cụ).
-  - Tích hợp QuickJS runtime siêu gọn nhẹ, mở app là dùng ngay mà không cần cài thêm bất kỳ runtime hay phần mềm phụ trợ nào.
+  -  **macOS (Apple Silicon)**: ~58 MB (`.dmg`).
+  -  **macOS (Intel Chip)**: ~66 MB (`.dmg`).
+  - 🪟 **Windows 10 / 11 (64-bit)**: ~79 MB (`Setup.exe` tích hợp sẵn .NET 8 Runtime, Windows App SDK và bộ giải mã).
+  - Đóng gói độc lập trọn gói, mở app là dùng ngay mà không cần cài thêm bất kỳ runtime hay phần mềm phụ trợ nào.
 - **Giao diện Native hiện đại**:
   - macOS: Giao diện SwiftUI tối ưu với Menu Bar icon chạy nền.
   - Windows: Giao diện Fluent Design (WinUI 3) chuẩn Windows 11 với hiệu ứng nền Mica, thông báo Windows Toast.
 - **Chống ngủ máy (Sleep Prevention)**: Tự động giữ máy luôn thức trong quá trình tải để không bị đứt kết nối mạng giữa chừng.
-- **Tự động bắt link Clipboard**: Copy link YouTube từ bất kỳ trình duyệt nào là app tự động nhận diện và đưa vào danh sách tải ngay.
-- **Hỗ trợ Playlist & YouTube Mix**: Quét và xem trước danh sách phát, hỗ trợ tải trọn bộ và nhận diện thông minh đài phát Mix.
+- **Tự động bắt link Clipboard**: Copy link video/âm thanh từ bất kỳ trình duyệt nào là app tự động nhận diện và đưa vào danh sách tải ngay.
+- **Hỗ trợ Playlist & Danh sách phát**: Quét và xem trước danh sách phát, hỗ trợ tải trọn bộ và nhận diện thông minh đài phát Mix.
 - **Tính năng cốt lõi**:
-  - Hỗ trợ tải Video chất lượng cao (lên đến 4K) hoặc trích xuất Audio (MP3/M4A có bìa bài hát).
+  - Hỗ trợ tải Video chất lượng cao (lên đến 4K) hoặc trích xuất Audio (MP3/M4A chất lượng cao có bìa bài hát).
   - Khi chọn 480p/720p/1080p/1440p/2160p, ứng dụng chỉ tải đúng độ phân giải đó và báo rõ nếu nguồn không có luồng phù hợp.
-  - Đóng gói sẵn toàn bộ công cụ cần thiết (`yt-dlp`, `ffmpeg`, `quickjs`), tự động tối ưu hóa luồng tải và thử lại thông minh khi gặp lỗi.
+  - Tích hợp sẵn bộ giải mã truyền thông độc lập, tự động tối ưu hóa luồng tải và thử lại thông minh khi gặp lỗi.
 
 ---
 
@@ -69,10 +69,10 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 
 ### Dành cho macOS:
 1. Tải file `.dmg` tương ứng với dòng máy của bạn:
-   - [Tải QTube cho Mac Apple Silicon (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-AppleSilicon.dmg)
-   - [Tải QTube cho Mac chip Intel (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Intel.dmg)
-2. Mở file `.dmg` vừa tải về, kéo biểu tượng **QTube** vào thư mục **Applications**.
-3. Mở **QTube** từ Launchpad hoặc thư mục Applications để sử dụng.
+   - [Tải QDown cho Mac Apple Silicon (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-AppleSilicon.dmg)
+   - [Tải QDown cho Mac chip Intel (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Intel.dmg)
+2. Mở file `.dmg` vừa tải về, kéo biểu tượng **QDown** vào thư mục **Applications**.
+3. Mở **QDown** từ Launchpad hoặc thư mục Applications để sử dụng.
 
 > [!NOTE]
 > **Lưu ý khi mở lần đầu trên macOS (Nếu hiển thị cảnh báo chưa xác minh):**
@@ -82,9 +82,9 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 > *(Bạn chỉ cần thực hiện bước này một lần duy nhất).*
 
 ### Dành cho Windows:
-1. Tải file cài đặt trọn gói: [**Tải về QTube-1.0.4-Windows-x64-Setup.exe**](https://github.com/beolamtat/qtube/releases/download/v1.0.4/QTube-1.0.4-Windows-x64-Setup.exe) (~81 MB)
+1. Tải file cài đặt trọn gói: [**Tải về QDown-1.0.5-Windows-x64-Setup.exe**](https://github.com/beolamtat/qtube/releases/download/v1.0.5/QDown-1.0.5-Windows-x64-Setup.exe) (~79 MB)
 2. Mở file setup vừa tải và nhấn **Next** để hoàn tất cài đặt (đã tích hợp sẵn trọn gói .NET 8 Runtime, Windows App SDK và toàn bộ công cụ cần thiết).
-3. Mở **QTube** từ Desktop hoặc Start Menu để bắt đầu sử dụng.
+3. Mở **QDown** từ Desktop hoặc Start Menu để bắt đầu sử dụng.
 
 > [!NOTE]
 > **Lưu ý khi mở lần đầu trên Windows (Nếu Windows Defender SmartScreen hiển thị cảnh báo):**
